@@ -1,0 +1,15 @@
+#write a python program for grossary bill..
+bill=int(input("Enter the total bill:")
+if bill>5000:
+       discount=bill*0.10
+elif bill>3000:
+       discount=bill*0.8
+elif bill>2000:
+       discount=bill*0.3
+         print("the discount for the given bill is :",discount)
+elif bill>3000:
+       tax=(bill*0.10)/100
+         print(" the tax for given bill:",tax)
+ else:
+       tax=(bill*0.18)/100
+         print("the tax is:",tax)
